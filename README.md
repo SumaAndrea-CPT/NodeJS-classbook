@@ -10,13 +10,6 @@
 [![Express](https://img.shields.io/badge/Express-v5.2-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
-[Caratteristiche](#-caratteristiche) •
-[Demo](#-demo) •
-[Installazione](#-installazione) •
-[Utilizzo](#-utilizzo) •
-[Tecnologie](#-tecnologie-utilizzate) •
-[Contribuire](#-contribuire)
-
 </div>
 
 ---
@@ -227,7 +220,5 @@ classbook/
 <div align="center">
 
 Made with ❤️ and ☕
-
-[⬆ Torna su](#-classbook---sistema-di-prenotazione-aule)
 
 </div>
