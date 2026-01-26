@@ -67,7 +67,7 @@ Prima di iniziare, assicurarsi di avere installato:
 
 ---
 
-## 🚀 Installazione
+## Installazione
 
 ### 1. Clona il Repository
 
@@ -209,16 +209,9 @@ classbook/
 
 ---
 
-## 👨‍💻 Autore
+## Autore
 
 **Andrea Suma**
 
 - GitHub: [@SumaAndrea-CPT](https://github.com/SumaAndrea-CPT)
 - Email: andrea.suma@student.edu.ti.ch
-
----
-<div align="center">
-
-Made with ❤️ and ☕
-
-</div>
