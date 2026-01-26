@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClassBook - Sistema di Prenotazione Aule</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+{{#if user}}
+  <nav class="navbar">
+    <div class="user-info">{{user.username}}</div>
+    <div class="nav-links">
+      <a href="/dashboard">Dashboard</a>
+      <a href="/logout">Logout</a>
+    </div>
+  </nav>
+{{/if}}
+
+<div class="main-container">
+  {{{body}}}
+</div>
+
+</body>
+</html>

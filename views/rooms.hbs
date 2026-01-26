@@ -1,0 +1,28 @@
+<div class="page-header">
+  <h2>Aule Disponibili</h2>
+  <p>Esplora tutte le aule disponibili per le tue prenotazioni</p>
+</div>
+
+{{#if rooms}}
+  <div class="rooms-grid">
+    {{#each rooms}}
+      <div class="room-card">
+        <div class="room-card-header">
+          <span class="room-icon">🚪</span>
+          <h3>{{name}}</h3>
+        </div>
+        <div class="room-capacity">
+          Capienza: {{capacity}} persone
+        </div>
+      </div>
+    {{/each}}
+  </div>
+{{else}}
+  <div class="empty-state">
+    <div class="empty-state-icon">🏫</div>
+    <h3>Nessuna aula disponibile</h3>
+    <p>Al momento non ci sono aule disponibili nel sistema</p>
+  </div>
+{{/if}}
+
+<a href="/dashboard" class="back-link">Torna alla Dashboard</a>

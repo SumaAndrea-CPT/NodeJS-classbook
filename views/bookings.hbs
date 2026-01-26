@@ -1,0 +1,62 @@
+<div class="page-header">
+  <h2>Le Mie Prenotazioni</h2>
+  <p>Gestisci le tue prenotazioni e creane di nuove</p>
+</div>
+
+{{#if bookings}}
+  <div class="bookings-container">
+    {{#each bookings}}
+      <div class="booking-card">
+        <div class="booking-info">
+          <strong>{{name}}</strong>
+          <span class="booking-date">{{booking_date}} ({{start_time}} - {{end_time}})</span>
+        </div>
+        <form action="/bookings/delete" method="POST" class="delete-form" onsubmit="return confirm('Sei sicuro di voler eliminare questa prenotazione?');">
+          <input type="hidden" name="id" value="{{id}}">
+          <button type="submit" class="btn-delete">Elimina</button>
+        </form>
+      </div>
+    {{/each}}
+  </div>
+{{else}}
+  <div class="empty-state">
+    <div class="empty-state-icon">📋</div>
+    <h3>Nessuna prenotazione</h3>
+    <p>Non hai ancora effettuato alcuna prenotazione</p>
+  </div>
+{{/if}}
+
+<div class="booking-form-container">
+  <h3>Nuova Prenotazione</h3>
+  <form method="POST" action="/bookings/add">
+    <div class="form-group">
+      <label for="room_id">Seleziona Aula</label>
+      <select name="room_id" id="room_id" required>
+        <option value="">Scegli un'aula...</option>
+        {{#each rooms}}
+          <option value="{{id}}">{{name}} - Capienza: {{capacity}} persone</option>
+        {{/each}}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="booking_date">Data Prenotazione</label>
+      <input type="date" name="booking_date" id="booking_date" required>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="start_time">Orario Inizio</label>
+        <input type="time" name="start_time" id="start_time" required>
+      </div>
+      <div class="form-group">
+        <label for="end_time">Orario Fine</label>
+        <input type="time" name="end_time" id="end_time" required>
+      </div>
+    </div>
+    
+    <button type="submit">Prenota Ora</button>
+  </form>
+</div>
+
+<a href="/dashboard" class="back-link">Torna alla Dashboard</a>
