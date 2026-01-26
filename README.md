@@ -9,7 +9,6 @@
 [![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express](https://img.shields.io/badge/Express-v5.2-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 [Caratteristiche](#-caratteristiche) •
 [Demo](#-demo) •
@@ -21,28 +20,7 @@
 </div>
 
 ---
-
-## 📋 Indice
-
-- [Panoramica](#-panoramica)
-- [Caratteristiche](#-caratteristiche)
-- [Demo](#-demo)
-- [Prerequisiti](#-prerequisiti)
-- [Installazione](#-installazione)
-- [Configurazione Database](#-configurazione-database)
-- [Utilizzo](#-utilizzo)
-- [Struttura del Progetto](#-struttura-del-progetto)
-- [Flusso Applicativo](#-flusso-applicativo)
-- [Tecnologie Utilizzate](#-tecnologie-utilizzate)
-- [Sicurezza](#-sicurezza)
-- [Roadmap](#-roadmap)
-- [Contribuire](#-contribuire)
-- [Licenza](#-licenza)
-- [Contatti](#-contatti)
-
----
-
-## 🌟 Panoramica
+## Panoramica
 
 **ClassBook** è un'applicazione web full-stack progettata per semplificare la gestione delle prenotazioni delle aule in ambiente scolastico o universitario. Con un'interfaccia moderna e intuitiva, gli utenti possono facilmente visualizzare le aule disponibili, effettuare prenotazioni e gestire i propri impegni.
 
